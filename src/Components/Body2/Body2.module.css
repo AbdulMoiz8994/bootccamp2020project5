@@ -1,0 +1,36 @@
+.root {
+  flex-grow: 1 !important;
+  display: flex !important;
+}
+.img {
+  margin: 5rem;
+  margin-top: -3rem;
+}
+.heading {
+  font-family: "M PLUS Rounded 1c", sans-serif !important;
+  font-size: 2.5rem !important;
+  border-bottom: 5px solid mediumpurple !important;
+  text-transform: uppercase !important;
+  margin-left: 3rem;
+  margin-top: 1rem !important;
+}
+.para {
+  width: 45vw;
+  word-spacing: 0.6rem;
+  font-size: 1.7rem;
+  margin-left: 3rem;
+}
+.headingBC {
+  font-family: "M PLUS Rounded 1c", sans-serif !important;
+  font-size: 2.5rem !important;
+  border-bottom: 5px solid mediumpurple !important;
+  text-transform: uppercase !important;
+  margin-left: 5rem;
+  margin-top: 1rem !important;
+}
+.paraBC {
+  width: 45vw;
+  word-spacing: 0.6rem;
+  font-size: 1.7rem;
+  margin-left: 5rem;
+}
