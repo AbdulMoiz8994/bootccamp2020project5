@@ -41,7 +41,6 @@ export const Header = () => {
         ],
         timing: {
             duration: 1000,
-            // delay: 1000,
             direction: 'alternate',
             easing: 'ease-in-out',
         }
@@ -53,7 +52,6 @@ export const Header = () => {
         keyframes: centerBody,
         timing: {
             ...centerBodyTiming,
-            // delay: 1000,
             duration: 3000,
             easing: 'ease'
         }

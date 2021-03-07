@@ -19,19 +19,19 @@ export const Body2 = () => {
         <div>
             <div className={style.root}>
                 <Box>
-                    <img data-aos="fade-up" src={CNC} alt="CLOUD Computing" className={style.img} />
+                    <img data-aos="fade-up" src={CNC} alt="CLOUD Computing" className={style.imgCNC} />
                 </Box>
                 <Box data-aos="fade-up">
                     <Typography>
-                        <h1 className={style.heading}>Cloud native Computing</h1>
-                        <p className={style.para}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusantium voluptatem ipsam reprehenderit ad maxime rerum molestiae voluptatibus, nihil magni eos quod saepe fugiat odio neque culpa temporibus quia ut!</p>
+                        <h1 className={style.headingCNC}>Cloud native Computing</h1>
+                        <p className={style.paraCNC}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusantium voluptatem ipsam reprehenderit ad maxime rerum molestiae voluptatibus, nihil magni eos quod saepe fugiat odio neque culpa temporibus quia ut!</p>
                     </Typography>
                 </Box>
             </div>
 
             <div className={style.root}>
                 <Box>
-                    <img data-aos="fade-down" src={IOT} alt="CLOUD Computing" className={style.img} />
+                    <img data-aos="fade-down" src={IOT} alt="Internet of Things" className={style.img} />
                 </Box>
                 <Box data-aos="fade-down">
                     <Typography>
@@ -49,7 +49,7 @@ export const Body2 = () => {
                     </Typography>
                 </Box>
                 <Box>
-                    <img data-aos="fade-left" src={BC} alt="CLOUD Computing" className={style.img} />
+                    <img data-aos="fade-left" src={BC} alt="Block Chain" className={style.img} />
                 </Box>
 
             </div>
