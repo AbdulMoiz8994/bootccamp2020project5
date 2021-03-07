@@ -34,18 +34,6 @@ const useStyles = makeStyles((theme) => ({
 export const Header = () => {
     const classes = useStyles();
 
-
-    const { keyframes: centerBody, timing: centerBodyTiming } = zoomInLeft
-    const { ref: mainCenterBody } = useWebAnimations({
-        keyframes: centerBody,
-        timing: {
-            ...centerBodyTiming,
-            delay: 1000,
-            duration: 2000,
-            easing: 'ease'
-        }
-    })
-
     const { ref } = useWebAnimations({
         keyframes: [
             { transform: 'translateX(-100%)' },
@@ -53,10 +41,24 @@ export const Header = () => {
         ],
         timing: {
             duration: 1000,
+            // delay: 1000,
             direction: 'alternate',
             easing: 'ease-in-out',
         }
     })
+
+
+    const { keyframes: centerBody, timing: centerBodyTiming } = zoomInLeft
+    const { ref: mainCenterBody } = useWebAnimations({
+        keyframes: centerBody,
+        timing: {
+            ...centerBodyTiming,
+            // delay: 1000,
+            duration: 3000,
+            easing: 'ease'
+        }
+    })
+
 
 
     return (

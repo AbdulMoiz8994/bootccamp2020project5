@@ -10,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "@wellyshen/use-web-animations": "^0.6.1",
     "aos": "^2.3.4",
+    "lottie-react-web": "^2.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-reveal": "^1.2.2",

@@ -42,14 +42,14 @@ export const Body2 = () => {
             </div>
 
             <div className={classes.root}>
-                <Box data-aos="fade-right">
+                <Box data-aos="fade-left">
                     <Typography>
                         <h1 className={style.headingBC}>BlockChain</h1>
                         <p className={style.paraBC}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusantium voluptatem ipsam reprehenderit ad maxime rerum molestiae voluptatibus, nihil magni eos quod saepe fugiat odio neque culpa temporibus quia ut!</p>
                     </Typography>
                 </Box>
                 <Box>
-                    <img data-aos="fade-right" src={BC} alt="CLOUD Computing" className={style.img} />
+                    <img data-aos="fade-left" src={BC} alt="CLOUD Computing" className={style.img} />
                 </Box>
 
             </div>

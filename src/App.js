@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import { Header, Body1, Body2 } from "./Components/index";
+import { Header, Body1, Body2, Body3 } from "./Components/index";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Header />
       <Body1 />
       <Body2 />
+      <Body3 />
     </div>
   );
 }
